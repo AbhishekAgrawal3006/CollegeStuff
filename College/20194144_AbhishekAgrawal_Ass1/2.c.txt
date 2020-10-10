@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    //Using both methods to simply add two numbers
+    printf("Enter two numbers");
+    int a=0; int b=0;
+    scanf("%d %d",&a,&b);
+    int c1=0;
+    int* p=&c1;
+    int c=addbyvalue(a,b);
+    addbyreference(&a,&b,p);
+    printf("%d \t %d",c,c1);
+    return 0;
+}
+int addbyvalue(int a, int b)
+{
+    return a+b;
+}
+void addbyreference(int* a,int* b,int* c)
+{
+    *c=*a+*b;
+}
