@@ -1,6 +1,6 @@
 // Abhishek Agrawal
 // 20194144
-
+//CSE -A1
 //Program to store three test scores and display the average
 
 import java.util.Scanner;
