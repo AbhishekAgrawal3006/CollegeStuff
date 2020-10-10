@@ -1,6 +1,6 @@
 // Abhishek Agrawal
 // 20194144
-
+// CSE A-1
 //Program to keep record personal information
 
 import java.util.Scanner;
@@ -63,7 +63,7 @@ class PersonalInformation
 
 class CheckPersonalInfo
 {
-    public static void main(String[] args)
+    public static void main(String[] args) //main function
     {
         PersonalInformation p1 = new PersonalInformation();
         PersonalInformation p2 = new PersonalInformation();
