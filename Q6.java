@@ -1,6 +1,6 @@
 // Abhishek Agrawal
 // 20194144
-
+//CSE A1
 //Program to demostrate Circle class and reporting the circle's area, diameter and circumference
 
 import java.util.Scanner;
@@ -55,7 +55,7 @@ class Circle
 
 class CheckCircle
 {
-    public static void main(String[] args)
+    public static void main(String[] args) // Main function
     {
         Scanner sc = new Scanner(System.in);
         double radius;
