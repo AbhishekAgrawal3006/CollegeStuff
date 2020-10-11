@@ -1,6 +1,6 @@
 // Abhishek Agrawal
 // 20194144
-
+//CSE -A1
 //Program to demostrate MonthDays class and display number of days in a month
 
 import java.util.Scanner;
@@ -38,7 +38,7 @@ class MonthDays
 
 class CheckMonthDays
 {
-    public static void main(String[] args)
+    public static void main(String[] args)	//Main function
     {
         Scanner sc = new Scanner(System.in);
         int month, year;
